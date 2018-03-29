@@ -1,0 +1,101 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* margin bottom by footer height */
+  margin-bottom: 60px;
+}
+a.footer-link {
+  color: #ffffff;
+}
+p.footer-p {
+  display: inline;
+}
+.para-md-lg {
+  line-height: 100%;
+  font-size: 120%;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+ul.dot-list {
+  list-style-type: circle;
+}
+ul li {polimi-geolab
+   padding: 3px 0px;
+}
+.v-center {
+  display: table;
+  height: 100px;
+}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.team-links {
+  line-height: 120%;
+  vertical-align: top;
+}
+.v-center-logo {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.projects-p {
+  margin: 0px;
+}
+.p-justify {
+  text-align: justify;
+}
+#logo-polimi {
+  padding-top: 20px;
+  padding-right: 20px;
+  display: inline; !important
+}
+#logo-geolab {
+  display: inline; !important
+}
+#map-selector {
+  height: 250px;
+}
+/*@media screen and (min-width: 992px) {
+  .para-md-lg {
+    line-height: 70%;
+  }
+}*/
+@media screen and (max-width: 350px) {
+  .footer-small {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #18bc9c;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width:351px) and (max-width: 600px) {
+  .footer-medium {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #18bc9c;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 601px) {
+  .footer-big {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #18bc9c;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 768px) {
+  #polimi-geolab {
+    text-align: right;
+  }
+}
