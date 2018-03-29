@@ -3,7 +3,7 @@ var map = L.map('map-selector', {center: [45.477623, 9.227239], zoom: 15,  minZo
 map.addLayer(osmHot);
 
 var icon = L.icon({
-  iconUrl: 'material/images/map/leaflet_marker_cropped_scaled.png',
+  iconUrl: 'images/map/leaflet_marker_cropped_scaled.png',
   iconSize:     [30, 51], // size of the icon
   iconAnchor:   [14, 56], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -38] // point from which the popup should open relative to the iconAnchor
