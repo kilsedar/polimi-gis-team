@@ -22,7 +22,7 @@ p.footer-p {
 ul.dot-list {
   list-style-type: circle;
 }
-ul li {polimi-geolab
+ul li {
    padding: 3px 0px;
 }
 .v-center {
@@ -59,11 +59,11 @@ ul li {polimi-geolab
 #map-selector {
   height: 250px;
 }
-/*@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .para-md-lg {
     line-height: 70%;
   }
-}*/
+} */
 @media screen and (max-width: 350px) {
   .footer-small {
     position: absolute;
